@@ -6,7 +6,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: 'Montreal-Serial-Regular', sans-serif;
+    font-family: 'Montserrat-Regular', 'FontAwesome';
     color: white;
 }
 
@@ -31,11 +31,19 @@ a
 
 @font-face
 {
-    font-family: 'Montreal-Serial-Regular';
-    src: url('/font/Montreal-Regular.ttf');
+    font-family: 'Montserrat-Regular';
+    src: url('font/Montserrat-Regular.ttf');
+}
+
+/* UTILITY CLASSES */
+.hidden
+{
+    display: none;
 }
 
 /* DESKTOP CODE */
+
+/* ASIDE */
 aside 
 {
     float: left;
@@ -43,8 +51,6 @@ aside
     height: 100vh;
     background-color: rgba(0,0,0,255);
 }
-
-
 
 main
 {
