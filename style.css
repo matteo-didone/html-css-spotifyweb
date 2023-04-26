@@ -52,16 +52,20 @@ aside
     background-color: rgba(0,0,0,255);
 }
 
+/* MAIN */
 main
 {
     background-color: rgba(20,25,34,255);
 }
 
+/* HEADER */
 header
 {
     background-color: rgba(8,11,18,255);
 }
 
+
+/* FOOTER */
 footer
 {
     background-color: rgba(40,40,40,255);
