@@ -6,7 +6,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font: 'Montreal-Serial-Regular', sans-serif;
+    font-family: 'Montreal-Serial-Regular', sans-serif;
     color: white;
 }
 
@@ -32,7 +32,7 @@ a
 @font-face
 {
     font-family: 'Montreal-Serial-Regular';
-    src: url('/font/Montreal-Serial\ Regular.ttf');
+    src: url('/font/Montreal-Regular.ttf');
 }
 
 /* DESKTOP CODE */
@@ -42,12 +42,16 @@ aside
     width: 20%;
     height: 100vh;
     background-color: rgba(0,0,0,255);
-
 }
 
 main
 {
     background-color: rgba(20,25,34,255);
+}
+
+header
+{
+    background-color: rgba(8,11,18,255);
 }
 
 footer
