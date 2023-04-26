@@ -15,11 +15,6 @@
 
 <body>
 
-	<header>
-        <div class="upgrade-button"> 
-            <button>EFFETTUA L'UPGRADE</button>
-        </div>
-	</header>
 
 	<aside>
         <div class="logo">
@@ -54,13 +49,20 @@
 
         <div class="playlist-list">
             <h3>PLAYLIST</h3>
+
+            <div class="create-new-playlist">
+
+                <div class="new-playlist-button">
+                    <i class="fa-solid fa-square-plus" style="color: #ffffff;"></i>
+                </div>
+
+                <div class="new-playlist-text">
+                    <span>Crea Playlist</span>
+                </div>
+
+            </div>
+
 			<ul>
-                <li>
-                    <a href="#">
-                        <i class="fa-solid fa-square-plus" style="color: #ffffff;"></i>
-                        Crea Playlist
-                    </a>
-                </li>
 				<li><a href="#">Nome Playlist</a></li>
                 <li><a href="#">Nome Playlist</a></li>
 				<li><a href="#">Nome Playlist</a></li>
@@ -72,97 +74,140 @@
         </div>
 
         <div class="aside-bottom">
-            <i class="fa-regular fa-circle-down" style="color: #ffffff;"></i>
-            <p>_______________</p>
-            <p>
-                <i class="fa-solid fa-circle-user" style="color: #ffffff;"></i>
-                John Doe
-            </p>
+            <div class="download-app">
+                <img src="/img/download.svg" alt="Download Icon">
+                <span>Installa app</span>
+            </div>
+
+            <!--Dividing Line-->
+            <hr>
+
+            <div class="account-sidebar"> 
+                <img src="/img/profile.svg" alt="Profile Default Icon">
+                <p>John Doe</p>
+            </div>
+        </div>
+
+        <div class="aside-bottom-shrunk">
+
+            <div class="download-app-shrunk">
+                <img src="/img/download.svg" alt="Download Icon">
+            </div>
+
+            <div class="account-sidebar-shrunk">
+                <img src="/img/profile.svg" alt="Profile Default Icon">
+            </div>
+
         </div>
 
 	</aside>
 
+
+    <header>
+        <div class="upgrade-button"> 
+            <a class="get-upgrade" href="#">
+                <button>EFFETTUA L'UPGRADE</button>
+            </a>
+        </div>
+	</header>
+
+
 	<main>
-        <section class="main-top">
+        
+        <nav>
             <ul>
-                <li><a href="#">In Evidenza</a></li>
-                <li><a href="#">Podcast</a></li>
-				<li><a href="#">Classifiche</a></li>
-				<li><a href="#">Generi e Mood</a></li>
-				<li><a href="#">Nuove Uscite</a></li>
-				<li><a href="#">Scopri</a></li>
+                <li>
+                    <div>
+                        <a href="#">IN EVIDENZA</a>
+                        <span class="green-underline"></span>
+                    </div>
+                </li>
+                <li><a href="#">PODCAST</a></li>
+				<li><a href="#">CLASSIFICHE</a></li>
+				<li><a href="#">GENERI E MOOD</a></li>
+				<li><a href="#">NUOVE USCITE</a></li>
+				<li><a href="#">SCOPRI</a></li>
             </ul>
-        </section>
+        </nav>
 
         <section class="recently-played">
             <h2>Recently Played</h2>
 
-            <div class="album-description">
-                <div class="album-cover-container">
-                    <img src="img/metal_lifting.jpg" alt="Heavy Metal Cover">
+            <div class="row album-row">
+
+                <div class="album-description">
+                    <div class="album-cover-container">
+                        <img src="img/metal_lifting.jpg" alt="Heavy Metal Cover">
+                    </div>
+                    <p><strong>Heavy Metal</strong></p>
+                    <p>Subtitle</p>
                 </div>
-                <p><strong>Heavy Metal</strong></p>
-                <p>Subtitle</p>
+    
+                <div class="album-description">
+                    <div class="album-cover-container">
+                        <img src="img/stranger.jpeg" alt="Stranger Things Cover">
+                    </div>
+                    <p><strong>Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</strong></p>
+                    <p>Kyle Dixon & Michael Stein</p>
+                </div>
+    
+                <div class="album-description">
+                    <div class="album-cover-container">
+                        <img src="img/aquietplace.jpeg" alt="A Quiet Place Cover">
+                    </div>
+                    <p><strong>A quiet place</strong></p>
+                    <p>Subtitle</p>
+                </div>
+    
+                <div class="album-description">
+                    <div class="album-cover-container">
+                        <img src="img/split.jpeg" alt="Split Cover">
+                    </div>
+                    <p><strong>Split</strong></p>
+                    <p>Subtitle</p>
+                </div>
+    
+                <div class="album-description">
+                    <div class="album-cover-container">
+                        <img src="img/cure.jpeg" alt="A Cure for Wellness Cover">
+                    </div>
+                    <p><strong>A cure for wellness</strong></p>
+                    <p>Subtitle</p>
+                </div>
+    
+                <div class="album-description">
+                    <div class="album-cover-container">
+                        <img src="img/sinister.jpeg" alt="Sinister Cover">
+                    </div>
+                    <p><strong>Sinister</strong></p>
+                    <p>Subtitle</p>
+                </div>
+
             </div>
 
-            <div class="album-description">
-                <div class="album-cover-container">
-                    <img src="img/stranger.jpeg" alt="Stranger Things Cover">
-                </div>
-                <p><strong>Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</strong></p>
-                <p>Kyle Dixon & Michael Stein</p>
-            </div>
-
-            <div class="album-description">
-                <div class="album-cover-container">
-                    <img src="img/aquietplace.jpeg" alt="A Quiet Place Cover">
-                </div>
-                <p><strong>A quiet place</strong></p>
-                <p>Subtitle</p>
-            </div>
-
-            <div class="album-description">
-                <div class="album-cover-container">
-                    <img src="img/split.jpeg" alt="Split Cover">
-                </div>
-                <p><strong>Split</strong></p>
-                <p>Subtitle</p>
-            </div>
-
-            <div class="album-description">
-                <div class="album-cover-container">
-                    <img src="img/cure.jpeg" alt="A Cure for Wellness Cover">
-                </div>
-                <p><strong>A cure for wellness</strong></p>
-                <p>Subtitle</p>
-            </div>
-
-            <div class="album-description">
-                <div class="album-cover-container">
-                    <img src="img/sinister.jpeg" alt="Sinister Cover">
-                </div>
-                <p><strong>Sinister</strong></p>
-                <p>Subtitle</p>
-            </div>
         </section>
 
         <section class="for-you">
             <h2>Creato per John Doe</h2>
             <p>Più ascolti, più accurati saranno i suggerimenti</p>
 
-            <div class="album-description">
-                <div class="album-cover-container">
-                    <img src="img/radar.jpeg" alt="Release Radar Cover">
+            <div class="row playlist-row"> 
+
+                <div class="album-description">
+                    <div class="album-cover-container">
+                        <img src="img/radar.jpeg" alt="Release Radar Cover">
+                    </div>
+                    <p><strong>Release Radar</strong></p>
                 </div>
-                <p><strong>Release Radar</strong></p>
+    
+                <div class="album-description">
+                    <div class="album-cover-container">
+                        <img src="img/mixdaily.jpeg" alt="Daily Mix 1">
+                    </div>
+                    <p><strong>Daily Mix 1</strong></p>
+                </div>
             </div>
 
-            <div class="album-description">
-                <div class="album-cover-container">
-                    <img src="img/mixdaily.jpeg" alt="Daily Mix 1">
-                </div>
-                <p><strong>Daily Mix 1</strong></p>
-            </div>
         </section>
 
         <section class="most-popular-artists">
@@ -170,18 +215,20 @@
             <h2>Artisti più popolari</h2>
             <p>Più ascolti, più accurati saranno i suggerimenti</p>
 
-            <div class="artist-description">
-                <div class="artist-cover-container">
-                    <img src="img/youg.jpeg" alt="Youg Artist Cover">
-                    <p><strong>Youg</strong></p>
+            <div class="row artists-row">
+                <div class="artist-description">
+                    <div class="artist-cover-container">
+                        <img src="img/youg.jpeg" alt="Youg Artist Cover">
+                        <p><strong>Youg</strong></p>
+                    </div>
                 </div>
-            </div>
-
-            <div class="artist-description">
-                <div class="album-cover-container">
-                    <img src="img/einaudi.jpeg" alt="Einaudi Cover">
+    
+                <div class="artist-description">
+                    <div class="album-cover-container">
+                        <img src="img/einaudi.jpeg" alt="Einaudi Cover">
+                    </div>
+                    <p><strong>Einaudi</strong></p>
                 </div>
-                <p><strong>Einaudi</strong></p>
             </div>
 
         </section>
