@@ -64,12 +64,19 @@ a
 
 /* DESKTOP CODE */
 
+/* BODY */
+body
+{
+    height: 100%;
+}
+
 /* CONTAINER */
 .container
 {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
+    height: 100%;
 }
 
 /* ASIDE */
@@ -246,7 +253,6 @@ main
 {
     background-color: rgba(20,25,34,255);
     padding-top: 88px;
-    padding-bottom: 88px;
     width: calc(100% - 15.80%);
     height: 100vh;
     overflow-y: scroll;
