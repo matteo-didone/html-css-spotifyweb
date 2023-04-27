@@ -57,6 +57,11 @@ a
     color: white;
 }
 
+.grey-font
+{
+    color: rgba(119,119,119,255);
+}
+
 /* DESKTOP CODE */
 
 
@@ -264,48 +269,139 @@ footer
 {
     background-color: rgba(40,40,40,255);
     color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 80px;
-}
-
-
-footer .right-footer
-{
-    height: 100%;
-    width: 100px;
-    text-align: center;
+    height: 100px;
+    padding: 10px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
+.whole-footer-container 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* LEFT FOOTER */
 footer .left-footer
 {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    height: 100%;
-    width: 150px;
-    text-align: center;
-    padding-left: 5px;
+    margin-right: 20px;
+}
+
+footer .left-footer .sinister-album-icon img 
+{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+footer .left-footer .sinister-text 
+{
+    margin: 0;
 }
 
 
-
+/* CENTER FOOTER */
 footer .center-footer
 {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
-    width: 740px;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+footer .center-footer .top-center-footer
+{
+    display: flex;
+    align-items: center;
+}
+
+footer .center-footer .bottom-center-footer
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.progress-bar 
+{
+    width: 80%;
+    height: 5px;
+    background-color: #545555;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+.progress-bar-fill 
+{
+    width: 30%;
     height: 100%;
+    background-color: rgba(172,172,173,255);
+    border-radius: 10px;
+}
+
+/* RIGHT FOOTER */
+footer .right-footer
+{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.volume-progress-bar
+{
+    width: 80px;
+    height: 5px;
+    background-color: #545555;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+.volume-progress-bar-fill 
+{
+    width: 20%;
+    height: 100%;
+    background-color: rgba(172,172,173,255);
+    border-radius: 10px;
+}
+
+/* ICONS */
+i 
+{
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.fa-circle-play 
+{
+    font-size: 50px;
+}
+
+.fa-list:hover, .fa-display:hover, .fa-volume-high:hover 
+{
+    cursor: pointer;
+}
+
+/* TEXT */
+p 
+{
+    font-size: 14px;
+    margin: 0;
+}
+
+strong 
+{
+    font-size: 16px;
 }
 
 
