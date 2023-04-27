@@ -416,6 +416,7 @@ footer .center-footer .bottom-center-footer p:last-child
 
 .progress-bar-fill 
 {
+    position: relative;
     width: 20%;
     height: 100%;
     background-color: rgba(172,172,173,255);
@@ -430,6 +431,18 @@ footer .center-footer .bottom-center-footer p:last-child
     background-color: rgba(192,247,97,255);
 }
 
+.progress-bar-fill:hover:after 
+{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    top: -2.5px;
+    left: 98%;
+}
+
 /* RIGHT FOOTER */
 footer .right-footer
 {
@@ -440,6 +453,7 @@ footer .right-footer
 
 .volume-progress-bar
 {
+    position: relative;
     width: 115px;
     height: 5px;
     background-color: #545555;
@@ -460,6 +474,18 @@ footer .right-footer
 {
     width: 20%;
     background-color: rgba(192,247,97,255);
+}
+
+.volume-progress-bar-fill:hover:after 
+{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    top: -2.5px;
+    left: 15%;
 }
 
 /* ICONS */
