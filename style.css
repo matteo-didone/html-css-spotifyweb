@@ -157,6 +157,18 @@ aside a:hover
     line-height: 2rem;
 }
 
+.playlist-list .create-new-playlist .new-playlist-button i:hover
+{
+    color: white;
+    cursor: pointer;
+}
+
+.create-new-playlist
+{
+    position: relative;
+    right: 10px;
+}
+
 .new-playlist-button
 {
     display: flex;
@@ -318,11 +330,30 @@ footer .left-footer .sinister-text
     margin: 0;
 }
 
+footer .left-footer .sinister-text a:hover
+{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 footer .left-footer .favorite-archive-icons 
 {
     margin-left: 40px;
+    color: #545555;
 }
 
+footer .left-footer .favorite-archive-icons .fa-heart:hover
+{
+    color: white;
+    cursor: pointer;
+}
+
+footer .left-footer .favorite-archive-icons .fa-folder:hover
+{
+    color: white;
+    cursor: pointer;
+}
 
 /* CENTER FOOTER */
 footer .center-footer
@@ -340,6 +371,18 @@ footer .center-footer .top-center-footer
     align-items: center;
 }
 
+footer .center-footer .top-center-footer i:hover
+{
+    font-size: calc(1.5rem + 1px);
+    cursor: pointer;
+}
+
+footer .center-footer .top-center-footer i.fa-circle-play:hover
+{
+    font-size: calc(50px + 10px);
+    cursor: pointer;
+}
+
 footer .center-footer .bottom-center-footer
 {
     display: flex;
@@ -349,21 +392,42 @@ footer .center-footer .bottom-center-footer
     margin-top: 10px;
 }
 
+footer .center-footer .bottom-center-footer p:first-child
+{
+    position: relative;
+    left: 100px;
+}
+
+footer .center-footer .bottom-center-footer p:last-child
+{
+    position: relative;
+    right: 100px;
+}
+
 .progress-bar 
 {
-    width: 80%;
+    width: 50%;
     height: 5px;
     background-color: #545555;
     border-radius: 10px;
     margin: 0 5px;
+
 }
 
 .progress-bar-fill 
 {
-    width: 30%;
+    width: 20%;
     height: 100%;
     background-color: rgba(172,172,173,255);
     border-radius: 10px;
+    transition: width 0.3s ease-in-out, 
+                background-color 0.3s ease-in-out;
+}
+
+.progress-bar-fill:hover
+{
+    width: 20%;
+    background-color: rgba(192,247,97,255);
 }
 
 /* RIGHT FOOTER */
@@ -376,11 +440,12 @@ footer .right-footer
 
 .volume-progress-bar
 {
-    width: 80px;
+    width: 115px;
     height: 5px;
     background-color: #545555;
     border-radius: 10px;
     margin: 0 5px;
+    transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .volume-progress-bar-fill 
@@ -389,6 +454,12 @@ footer .right-footer
     height: 100%;
     background-color: rgba(172,172,173,255);
     border-radius: 10px;
+}
+
+.volume-progress-bar-fill:hover
+{
+    width: 20%;
+    background-color: rgba(192,247,97,255);
 }
 
 /* ICONS */
