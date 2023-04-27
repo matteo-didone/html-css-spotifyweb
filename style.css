@@ -261,6 +261,17 @@ header
     opacity: 100%;
     margin-right: 20px;
     font-weight: bolder;
+    transition: transform 0.3s ease-in-out;
+}
+
+.upgrade-button:hover
+{
+    width: 230px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
@@ -305,6 +316,11 @@ footer .left-footer .sinister-album-icon img
 footer .left-footer .sinister-text 
 {
     margin: 0;
+}
+
+footer .left-footer .favorite-archive-icons 
+{
+    margin-left: 40px;
 }
 
 
@@ -382,12 +398,17 @@ i
     margin: 0 10px;
 }
 
+.footer i.fa-regular:hover, i.fa-solid:hover
+{
+    cursor: pointer;
+}
+
 .fa-circle-play 
 {
     font-size: 50px;
 }
 
-.fa-list:hover, .fa-display:hover, .fa-volume-high:hover 
+.fa-circle-play:hover 
 {
     cursor: pointer;
 }
