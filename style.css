@@ -64,11 +64,17 @@ a
 
 /* DESKTOP CODE */
 
+/* CONTAINER */
+.container
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
 
 /* ASIDE */
 aside 
 {
-    float: left;
     width: 15.80%;
     height: calc(100vh - 100px);
     background-color: rgba(0,0,0,255);
