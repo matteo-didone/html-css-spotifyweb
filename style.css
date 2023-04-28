@@ -813,3 +813,24 @@ strong
 {
 
 }  
+
+/* Styles for screens <350px (Extra Small Height) */
+@media screen and (max-height: 350px) 
+{
+    .left-container 
+    {
+        overflow-y: auto;
+        background-color: rgba(0,0,0,255);
+    }
+
+    .playlist-list ul 
+    {
+        overflow-y: auto;
+    }
+
+    .search-list li a 
+    {
+        font-size: 14px;
+    }
+}
+
