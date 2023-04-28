@@ -235,6 +235,7 @@ aside a:hover
 {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .download-app img 
@@ -242,6 +243,11 @@ aside a:hover
     width: 25px;
     height: 25px;
     margin-right: 0.5rem;
+}
+
+.download-app img:hover
+{
+    filter: none;
 }
 
 .aside-bottom p
@@ -371,6 +377,63 @@ header
     padding-right: 30px;
 }
 
+/* MAIN SECTIONS */
+.recently-played
+{
+    margin-left: 25px;
+}
+
+.for-you
+{
+    margin-left: 25px;
+}
+
+.most-popular-artists
+{
+    margin-left: 25px;
+}
+
+.recently-played h2, .for-you h2, .most-popular-artists h2
+{
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.album-title, .artist-name
+{
+    color: white;
+}
+
+.band-name, .the-more-you-listen
+{
+    color: rgba(105,105,104,255);
+    margin-bottom: 35px;
+}
+
+/* ROW */
+.row
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.album-description
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.album-cover-container
+{
+    width: calc((100%/6) - 1rem);
+    height: calc((100vw / 6 ) - 1rem);
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
 
 /* FOOTER */
 footer
