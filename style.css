@@ -409,11 +409,13 @@ header
 .album-title, .artist-name
 {
     color: white;
+    margin-top: 20px;
 }
 
 .band-name, .the-more-you-listen
 {
     color: rgba(105,105,104,255);
+    margin-top: 20px;
     margin-bottom: 35px;
 }
 
@@ -423,6 +425,11 @@ header
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+}
+
+.album-row
+{
+    padding-top: 30px;
 }
 
 .album-description
