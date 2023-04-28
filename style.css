@@ -398,6 +398,7 @@ header
     color: white;
     margin-top: 35px;
     margin-bottom: 25px;
+    font-weight: bolder;
 }
 
 .album-title, .artist-name
@@ -429,7 +430,7 @@ header
 
 .album-cover-container
 {
-    width: calc((100%/6) - 1rem);
+    width: calc((100% / 6) - 1rem);
     height: calc((100vw / 6 ) - 1rem);
     margin-right: 1rem;
     margin-bottom: 1rem;
