@@ -293,25 +293,19 @@ main nav
     display: flex;
     margin-top: 20px;
     margin-bottom: 40px;
-    align-items: center;
-    max-height: calc(100vh - 160px); /* Imposto la max-height alla stessa altezza del container main, sottraendo le altezze di header e footer*/
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 main nav ul 
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     list-style: none;
-    padding: 0;
     width: 100%;
 }
 
 main nav ul li 
 {
-    flex-grow: 1;
     text-align: center;
     color: rgba(111,113,119,255);
     padding: 0 10px;
@@ -538,7 +532,7 @@ header
 
 .stranger-things 
 {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 /* FOOTER */
