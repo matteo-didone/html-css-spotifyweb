@@ -776,4 +776,40 @@ strong
 }
 
 
+/* MEDIA QUERIES */
 
+/* Styles for screens <576px (X-Small) */
+@media screen and (max-width: 575.98px) 
+{
+
+}
+
+/* Styles for screens ≥576px (Small) */
+@media screen and (min-width: 576px) 
+{
+
+}
+
+/* Styles for screens ≥768px (Medium) */
+@media screen and (min-width: 768px) 
+{
+
+}
+
+/* Styles for screens ≥992px (Large) */
+@media screen and (min-width: 992px) 
+{
+}
+
+
+/* Styles for screens ≥1200px (Extra large) */
+@media screen and (min-width: 1200px) 
+{
+
+}
+
+/* Styles for screens ≥1400px (Extra extra large) */
+@media screen and (min-width: 1400px) 
+{
+
+}  
